@@ -1,6 +1,8 @@
 /// The solution code provided in the question had errors and a few other issues; It even had some C++ functions mixed in it? eg: `void exit()`, should have been `void exit(int statusCode)`
 /// Variable names shouldn't be single characters - it's a bad practice, if you are teaching people to code; you might as well do it properly.
 /// Removed conio.h because it is a non-standard library and isn't used anymore.
+ 
+/// Executable is compiled on a Linux machine using `clang` compiler
 
 #include <stdio.h>
 #include <stdlib.h>
